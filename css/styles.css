@@ -170,8 +170,8 @@ ul{
     width: 10px;
 	height: 16px;
 }
-.contacts-phone-icon svg:hover,
-.contacts-mail-icon svg:hover {
+.contacts-phone-icon, svg:hover,
+.contacts-mail-icon, svg:hover {
    color: var(--heading-color);
 }
 .global-header, .main-contacts {
