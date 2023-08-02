@@ -472,6 +472,7 @@ button:hover, button:focus {
 	justify-content: center;
 	margin: 16px 32px 30px 32px;
 	gap: 10px;
+
 }
 .icon {
 	width: 44px;
@@ -582,5 +583,26 @@ button:hover, button:focus {
 }
 .adress-footer a:hover, .contacts-footer a:hover {
     color: var(--heading-color);
+}
+.global-footer-social-links, .icons-list, h3 {
+    font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.42px;
+	text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch; 
+    padding-top: -75px;
+}
+.global-footer-social-links, .icons-list {
+
+}
+.global-footer-social-links .icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #2F303A;
 }
 
