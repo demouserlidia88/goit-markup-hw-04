@@ -479,14 +479,14 @@ button:hover, button:focus {
 	width: 20px;
 	height: 20px;
 }
-.icon:hover,
+.icon:hover
 .icon:focus {
-	background-color: var(--link-color-active);
-	fill: var(--text-dark-bg-color);
+	background-color: var(--heading-color);
+	fill: #FFFFFF;
 }
 .icon svg:hover,
 .icon svg:focus {
-	fill: var(--text-dark-bg-color);
+	fill: #FFFFFF;
 }
 
 /* section-container*/
