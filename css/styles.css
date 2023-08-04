@@ -369,7 +369,7 @@ button:hover, button:focus {
 	text-transform: uppercase;
 }
 .paragraf-card p{
-    color: var(--shaded-color);
+    color: var(--color-paragraf);
 	line-height: 24px;
 }
 .image-card{
@@ -473,7 +473,7 @@ button:hover, button:focus {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	fill: var(--shaded-color);
+	fill: var(--color-paragraf);
 }
 .icon svg {
 	width: 20px;
