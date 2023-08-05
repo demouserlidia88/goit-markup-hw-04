@@ -486,7 +486,6 @@ button:hover, button:focus {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	fill: #AFB1B8;
     color: #AFB1B8;
 }
 .icon svg {
