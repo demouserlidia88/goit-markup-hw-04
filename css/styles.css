@@ -175,12 +175,11 @@ ul{
     gap: 60px;
     align-items: center;
 }
-.global-header, .main-contacts, .contacts, .contacts-mail li:hover,
-.global-header, .main-contacts, .contacts, .contacts-phone li:hover,
-.global-header, .main-contacts, .contacts, .contacts-mail-icon:hover,
-.global-header, .main-contacts, .contacts, .contacts-phone-icon:hover,
-.global-header, .main-contacts, .contacts, .contacts-mail-icon-svg:hover,
-.global-header, .main-contacts, .contacts, .contacts-phone-iconsvg:hover {
+.global-header, .main-contacts, .contacts, 
+.contacts-mail-icon svg:hover,
+.contacts-phone-icon svg:hover,
+.contacts-mail-icon svg:focus,
+.contacts-phone-icon svg:focus {
     color: var(--heading-color); 
     fill: var(--heading-color); 
 }
@@ -625,16 +624,16 @@ button:hover, button:focus {
     margin-left: -120px;
     
 }
-.icons-list h3 {
-
-}
 .footer-section, .footer, .global-footer-social-links, .main-footer, .icons-list {
     display: flex;
-   
-
 }
-.global-footer-social-links .icon {
+.global-footer-social-links, .find-us-icons, .icon {
     background-color: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
 }
 
+.global-footer-social-links:hover, .find-us-icons:hover, .icon:hover, 
+.global-footer-social-links:focus, .find-us-icons:focus, .icon:focus {
+    background-color: var(--heading-color);
+	fill: var(--heading-color);
+}
