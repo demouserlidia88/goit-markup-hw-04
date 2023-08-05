@@ -488,9 +488,7 @@ button:hover, button:focus {
 	border-radius: 50%;
     fill: #afb1b8;
 }
-.icon svg {
-    fill: #afb1b8;
-}
+
 .icon svg {
 	width: 20px;
 	height: 20px;
@@ -637,6 +635,6 @@ button:hover, button:focus {
 }
 .global-footer-social-links .icon {
     background-color: rgba(255, 255, 255, 0.1);
-    fill: #FFFFFF;
+    
 }
 
