@@ -86,7 +86,8 @@ ul{
 .logo-studio a, span{
     color: #000000;
 }
-.logowebstudio span:hover, .logo-studio span:hover{
+.logowebstudio span:hover, .logo-studio span:hover,
+.logowebstudio span:focus, .logo-studio span:focus {
     color: var(--heading-color);
 }
 .global-header, .main-logo {
@@ -179,9 +180,15 @@ ul{
 .global-header, .main-contacts, .contacts, .contacts-mail-icon:hover,
 .global-header, .main-contacts, .contacts, .contacts-phone-icon:hover,
 .global-header, .main-contacts, .contacts, .contacts-mail-icon-svg:hover,
-.global-header, .main-contacts, .contacts, .contacts-phone-iconsvg:hover,
-.global-header, .main-contacts, .contacts, .contacts-mail-span:hover,
-.global-header, .main-contacts, .main-contacts,.contacts, .contacts-phone-span:hover {
+.global-header, .main-contacts, .contacts, .contacts-phone-iconsvg:hover {
+    color: var(--heading-color); 
+    fill: var(--heading-color); 
+}
+.global-header, 
+.contacts-mail-span:hover,
+.contacts-phone-span:hover,
+.contacts-mail-span:focus,
+.contacts-phone-span:focus {
     color: var(--heading-color); 
     fill: var(--heading-color); 
 }
@@ -276,6 +283,11 @@ ul{
 .project-card {
 	box-shadow: 0px 0px 0px 1px #eee inset;
 }
+.project-card:hover,
+.project-card:focus {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+		0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 
 /* section-button */
 
@@ -311,6 +323,7 @@ button:hover, button:focus {
 }
 
 /* section-paragraf */
+
 .section, .paragraf{
     width: 1200px;
 	text-align: center;
@@ -473,7 +486,8 @@ button:hover, button:focus {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	fill: var(--color-paragraf);
+	fill: #AFB1B8;
+    color: #AFB1B8;
 }
 .icon svg {
 	width: 20px;
@@ -482,11 +496,11 @@ button:hover, button:focus {
 .icon:hover
 .icon:focus {
 	background-color: var(--heading-color);
-	fill: #FFFFFF;
+	fill: var(--heading-color);
 }
 .icon svg:hover,
 .icon svg:focus {
-	fill: #FFFFFF;
+	fill: var(--heading-color);
 }
 
 /* section-container*/
@@ -566,7 +580,8 @@ button:hover, button:focus {
 .footer-logo-studio{
     color: #FFFFFF;
 }
-.footer-logo-web span:hover, .footer-logo-studio span:hover{
+.footer-logo-web span:hover, .footer-logo-studio span:hover,
+.footer-logo-web span:focus, .footer-logo-studio span:focus {
  color: var(--heading-color);
 }
 .adress-footer a{
@@ -583,7 +598,8 @@ button:hover, button:focus {
     color:var(--color-paragraf);
     text-decoration: none;
 }
-.adress-footer a:hover, .contacts-footer a:hover{
+.adress-footer a:hover, .contacts-footer a:hover,
+.adress-footer a:focus, .contacts-footer a:focus {
     color: var(--heading-color);
 }
 .main-footer, .global-footer-social-links{
@@ -619,6 +635,6 @@ button:hover, button:focus {
 }
 .global-footer-social-links .icon {
     background-color: rgba(255, 255, 255, 0.1);
-    fill: #2F303A;
+    fill: #FFFFFF;
 }
 
