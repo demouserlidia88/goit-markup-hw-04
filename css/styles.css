@@ -493,7 +493,7 @@ button:hover, button:focus {
 	width: 20px;
 	height: 20px;
 }
-.icon:hover
+.icon:hover,
 .icon:focus {
 	background-color: var(--heading-color);
 	fill: var(--heading-color);
@@ -635,6 +635,6 @@ button:hover, button:focus {
 }
 .global-footer-social-links .icon {
     background-color: rgba(255, 255, 255, 0.1);
-    
+    fill: #FFFFFF;
 }
 
