@@ -632,8 +632,3 @@ button:hover, button:focus {
     fill: #FFFFFF;
 }
 
-.global-footer-social-links:hover, .find-us-icons:hover, .icon:hover, 
-.global-footer-social-links:focus, .find-us-icons:focus, .icon:focus {
-    background-color: var(--heading-color);
-	fill: var(--heading-color);
-}
