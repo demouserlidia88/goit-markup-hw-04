@@ -495,11 +495,11 @@ button:hover, button:focus {
 .icon:hover,
 .icon:focus {
 	background-color: var(--heading-color);
-	fill: var(--heading-color);
+	fill: #FFFFFF;
 }
 .icon svg:hover,
 .icon svg:focus {
-	fill: var(--heading-color);
+	fill: #FFFFFF;
 }
 
 /* section-container*/
@@ -627,7 +627,7 @@ button:hover, button:focus {
 .footer-section, .footer, .global-footer-social-links, .main-footer, .icons-list {
     display: flex;
 }
-.global-footer-social-links, .find-us-icons, .icon {
+.global-footer-social-links .icon {
     background-color: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
 }
