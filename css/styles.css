@@ -494,12 +494,12 @@ button:hover, button:focus {
 }
 .icon:hover,
 .icon:focus {
-	background-color: var(--heading-color);
-	fill: #FFFFFF;
+    color: #FFFFFF;
+    background: var(--heading-color);
 }
-.icon svg:hover,
+.global-footer-social-links, .icon svg:hover,
 .icon svg:focus {
-	fill: #FFFFFF;
+    color: #FFFFFF;
 }
 
 /* section-container*/
@@ -621,14 +621,12 @@ button:hover, button:focus {
 	text-transform: uppercase;
     color: #FFFFFF;
     justify-content:flex-start;
-    margin-left: -120px;
-    
+    margin-left: -120px; 
 }
 .footer-section, .footer, .global-footer-social-links, .main-footer, .icons-list {
     display: flex;
 }
 .global-footer-social-links .icon {
     background-color: rgba(255, 255, 255, 0.1);
-    fill: #FFFFFF;
+    color: #FFFFFF;
 }
-
