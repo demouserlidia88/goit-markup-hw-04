@@ -486,10 +486,10 @@ button:hover, button:focus {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-    color: var(--color-paragraf);
+    fill: var(--color-paragraf);
 }
 .icon svg {
-    color: var(--color-paragraf);
+    fill: var(--color-paragraf);
 }
 .icon svg {
 	width: 20px;
