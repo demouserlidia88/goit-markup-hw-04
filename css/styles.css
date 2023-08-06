@@ -180,7 +180,7 @@ ul{
 .contacts-phone-icon svg:hover,
 .contacts-mail-icon svg:focus,
 .contacts-phone-icon svg:focus {
-    fill: var(--heading-color); 
+    color: var(--heading-color);
 }
 .global-header, 
 .contacts-mail-span:hover,
@@ -188,6 +188,7 @@ ul{
 .contacts-mail-span:focus,
 .contacts-phone-span:focus {
     fill: var(--heading-color); 
+    color: var(--heading-color);
 }
 
 /* section-background*/
