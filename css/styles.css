@@ -180,7 +180,6 @@ ul{
 .contacts-phone-icon svg:hover,
 .contacts-mail-icon svg:focus,
 .contacts-phone-icon svg:focus {
-    color: var(--heading-color); 
     fill: var(--heading-color); 
 }
 .global-header, 
@@ -188,7 +187,6 @@ ul{
 .contacts-phone-span:hover,
 .contacts-mail-span:focus,
 .contacts-phone-span:focus {
-    color: var(--heading-color); 
     fill: var(--heading-color); 
 }
 
@@ -485,22 +483,18 @@ button:hover, button:focus {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-    fill: #afb1b8;
+    color: #afb1b8;
 }
-
 .icon svg {
 	width: 20px;
 	height: 20px;
 }
 .icon:hover,
 .icon:focus {
-    color: #FFFFFF;
+    fill: #FFFFFF;
     background: var(--heading-color);
 }
-.global-footer-social-links, .icon svg:hover,
-.icon svg:focus {
-    color: #FFFFFF;
-}
+
 
 /* section-container*/
 
@@ -581,7 +575,8 @@ button:hover, button:focus {
 }
 .footer-logo-web span:hover, .footer-logo-studio span:hover,
 .footer-logo-web span:focus, .footer-logo-studio span:focus {
- color: var(--heading-color);
+    color: var(--heading-color);
+    fill: var(--heading-color);
 }
 .adress-footer a{
     font-family: var(--text-font-family);
@@ -597,8 +592,8 @@ button:hover, button:focus {
     color:var(--color-paragraf);
     text-decoration: none;
 }
-.adress-footer a:hover, .contacts-footer a:hover,
-.adress-footer a:focus, .contacts-footer a:focus {
+.adress-footer a:hover, .contacts-footer a:hover, .icon svg:hover,
+.adress-footer a:focus, .contacts-footer a:focus, .icon svg:focus {
     color: var(--heading-color);
 }
 .main-footer, .global-footer-social-links{
@@ -625,8 +620,13 @@ button:hover, button:focus {
 }
 .footer-section, .footer, .global-footer-social-links, .main-footer, .icons-list {
     display: flex;
+    color: #FFFFFF;
 }
 .global-footer-social-links .icon {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+.global-footer-social-links, .icon svg:hover,
+.icon svg:focus {
+    fill: var(--heading-color);
 }
