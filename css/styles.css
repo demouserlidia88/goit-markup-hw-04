@@ -489,12 +489,13 @@ button:hover, button:focus {
 	width: 20px;
 	height: 20px;
 }
-.footer-section, .icon:hover,
-.footer-section, .icon:focus {
+.icon:hover,
+.icon:focus,
+.icon svg:hover,
+.icon svg:focus {
     fill: #FFFFFF;
     background: var(--heading-color);
 }
-
 
 /* section-container*/
 
@@ -618,17 +619,34 @@ button:hover, button:focus {
     justify-content:flex-start;
     margin-left: -120px; 
 }
-.footer-section, .footer, .global-footer-social-links, .main-footer, .icons-list {
+.footer-section, .footer, .global-footer-social-links, .main-footer {
     display: flex;
-    color: #FFFFFF;
 }
-.global-footer-social-links .icon {
+.global-footer-social-links .icon-footer {
     background-color: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
 }
-.global-footer-social-links, 
-.icon svg:hover,
-.icon svg:focus {
+.icons-list-footer {
+	display: flex;
+	justify-content: center;
+	margin: 16px 32px 30px 32px;
+	gap: 10px;
+}
+.icon-footer {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+    color: #FFFFFF;
+}
+.icon-footer svg {
+	width: 20px;
+	height: 20px;
+}
+.icon-footer:hover,
+.icon-footer:focus {
     fill: #FFFFFF;
     background: var(--heading-color);
 }
