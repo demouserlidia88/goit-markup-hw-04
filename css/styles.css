@@ -491,13 +491,14 @@ button:hover, button:focus {
     color: #afb1b8;
 }
 .icon:hover,
-.icon:focus,
-.icon svg:hover,
-.icon svg:focus {
-    fill: #FFFFFF;
+.icon:focus{
     background: var(--heading-color);
+    fill: #FFFFFF;
 }
-
+.icon svg:hover,
+.icon svg:focus { 
+    filter: brightness(0) invert(1);
+}
 /* section-container*/
 
 .customers-section {
