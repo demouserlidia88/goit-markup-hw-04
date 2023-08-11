@@ -175,14 +175,12 @@ ul{
     gap: 60px;
     align-items: center;
 }
-.global-header, .main-contacts, .contacts, 
-.contacts-mail-icon svg:hover,
-.contacts-phone-icon svg:hover,
-.contacts-mail-icon svg:focus,
-.contacts-phone-icon svg:focus {
-    color: var(--heading-color);
+.contacts-mail-icon:hover,
+.contacts-phone-icon:hover,
+.contacts-mail-icon:focus,
+.contacts-phone-icon:focus {
+    filter: invert(52%) sepia(20%) saturate(7450%) hue-rotate(184deg) brightness(99%) contrast(93%);
 }
-.global-header, 
 .contacts-mail-span:hover,
 .contacts-phone-span:hover,
 .contacts-mail-span:focus,
